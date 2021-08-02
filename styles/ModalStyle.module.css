@@ -25,3 +25,9 @@
         margin: 0px;
     }
   }
+
+  @media screen and (max-width: 1536px) and (min-width: 700px) {
+    .content{
+        padding: 20px 30px;
+    }
+  }

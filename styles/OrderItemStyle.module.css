@@ -41,6 +41,16 @@
     .rollback{
         margin-top: 15px;
     }
-    
-    
   }
+
+  @media screen and (max-width: 1536px) and (min-width: 700px) {
+    .containerChild{
+        height: 260px !important;
+        box-shadow: 0px 0px 10px 0px lightgrey;
+    }
+
+    .imageClass {
+        height: 70px !important;
+    }
+  }
+  
