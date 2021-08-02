@@ -1,0 +1,27 @@
+.content{
+    padding: 50px 30px;
+    margin: 60px
+}
+
+.spanClass{
+    font-weight: 600;
+}
+
+.closeClass:focus{
+    box-shadow: none !important;
+}
+
+.modalBodyClass{
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 660px){
+    .content{
+        margin-top: 72px !important;
+        margin-bottom: 0px!important;
+        height: 92%;
+        max-height: unset !important;
+        margin: 0px;
+    }
+  }

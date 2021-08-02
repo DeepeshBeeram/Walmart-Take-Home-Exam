@@ -1,0 +1,106 @@
+.tableRow{
+    cursor: pointer;
+}
+
+.filterContainer{
+    margin: 30px 40px;
+}
+
+.orderContainer{
+    margin-top: 60px;
+    margin-top: 150px;
+}
+
+.orderTable{
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 30px;
+    padding: 4px;
+    
+}
+
+.tableHeader{
+font-weight: bolder;
+}
+
+.tableBody{
+    font-size: 15px;
+}
+
+
+.paginationBtns{
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBtns a{
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px solid #0071DC;
+    color: #0071DC;
+    cursor: pointer;
+}
+
+.pagination{
+    float: right;
+}
+
+.paginationBtns a:hover{
+    color: white;
+    background-color: #0071DC;
+}
+
+.paginationActive a{
+    color: white;
+    background-color: #0071DC;
+}
+
+.paginationDisabled a{
+    cursor: not-allowed;
+}
+
+.paginationDisabled a:hover{
+    background-color: transparent ;
+    color: #0071DC;
+}
+
+.sortClass{
+    cursor: pointer;
+}
+
+.sortClass:hover{
+    color:#0071DC;
+}
+
+.deliveredClass{
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.deliveredContainter{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+@media screen and (max-width: 700px){
+    .orderTable{
+        width: fit-content;
+    }
+
+    .mainContainer{
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+    
+    .pagination{
+        font-size: 14px;
+    }
+  }
+
+
+
